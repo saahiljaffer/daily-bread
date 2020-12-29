@@ -35,6 +35,34 @@ body{
   opacity: 0.7;
 }
 
+.block3 {
+  text-align: center;
+  align-content: center;
+  border: 8px solid white;
+  padding: 30px;
+  background-color:#D3F7FC;
+  opacity: 0.7;
+}
+
+.block4 {
+  text-align: center;
+  align-content: center;
+  border: 8px solid white;
+  padding: 30px;
+  background-color:#D3EEFC;
+  opacity: 0.7;
+}
+
+.block5 {
+  text-align: center;
+  align-content: center;
+  border: 8px solid white;
+  padding: 30px;
+  background-color:#D3E3FC;
+  opacity: 0.7;
+}
+
+
 
 label {
   display: flex;
@@ -70,12 +98,16 @@ h1{
   font-family: trebuchet ms
 }
 
+h2{
+  font-family: trebuchet ms
+}
+
 .feature{
   width: 20%;
   margin: 5%;
   padding: 2%;
-  background-color: #CBE4EF;
-  border: 3px solid #49668A;
+  background-color: #D3F7FC;
+  border: 3px solid #739499;
   transition: transform 0.2s
 }
 
@@ -83,8 +115,8 @@ h1{
   width: 20%;
   margin: 5%;
   padding: 2%;
-  background-color: #CBE4EF;
-  border: 3px solid #49668A;
+  background-color: #D3F7FC;
+  border: 3px solid #739499;
   cursor: pointer;
     transform:scale(0.95);
     opacity: 0.8
@@ -93,4 +125,20 @@ h1{
 a{
   text-decoration: none;
   color: inherit
+}
+
+.creator{
+  font-style: italic;
+  
+}
+
+.button {
+  background-color: #D3F7FC; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
 }
