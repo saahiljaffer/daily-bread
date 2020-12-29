@@ -6,12 +6,21 @@
         height: 600px;
         width: 100%;
       }
+      #logo{
+        text-align: center;
+      }
+      body{
+        background-color: rgb(3, 49, 60);
+      }
     </style>
     <meta charset="UTF-8" />
-    <title>Form</title>
+    <title>Map</title>
   </head>
   <body>
-    <img src='./logobread_medium.jpg'>
+    <div id="logo">
+      <img src='../graphics/logobreadCutout_medium.png'>
+    </div>
+    
     <div id="map"></div>
     <script>
               var dict = {
@@ -25,30 +34,26 @@
           zoom: 7,
           center: { lat:43.6532, lng: -79.3832 },
         };
-        let icon = {
-          url: "./logobread.jpg",
-          scaledSize: { width: 30, height: 30 },
-        };
         var map = new google.maps.Map(document.getElementById("map"), options);
 
         addMarker({
             coords: {lat: dict.DivineMercy[6], lng: dict.DivineMercy[7] },
             iconImage: {
-            url: "./redapple.png",
+            url: "../graphics/redapple.png",
             scaledSize: { width: 40, height: 40 },},
         content: formatDetails(dict.DivineMercy[0], dict.DivineMercy[1], dict.DivineMercy[2], dict.DivineMercy[3], dict.DivineMercy[4], dict.DivineMercy[5])
         });
         addMarker({ 
             coords:{lat: dict.Thorncliffe[6], lng: dict.Thorncliffe[7]},
             iconImage: { 
-            url: "./greenapple.png",
+            url: "../graphics/greenapple.png",
             scaledSize: { width: 40, height: 40 },},
             content: formatDetails(dict.Thorncliffe[0], dict.Thorncliffe[1], dict.Thorncliffe[2], dict.Thorncliffe[3], dict.Thorncliffe[4], dict.Thorncliffe[5])
         });
         addMarker({ 
             coords:{lat: dict.DailyBread[6], lng:dict.DailyBread[7]},
             iconImage: { 
-            url: "./yellowapple.png",
+            url: "../graphics/yellowapple.png",
             scaledSize: { width: 40, height: 40 },},
             content: formatDetails(dict.DailyBread[0], dict.DailyBread[1], dict.DailyBread[2], dict.DailyBread[3], dict.DailyBread[4], dict.DailyBread[5])
         });
@@ -58,9 +63,10 @@
             const html = `<div style=line-height:0.1 em>
             <p>${name}</p><br>
             <p>${address}</p><br>
-            <p>maximum income: ${incomeLevel}</p><br>
+            <p>income cutoff: ${incomeLevel}</p><br>
+            <p>expense cutoff: ${expenses}</p><br>
+            <p>id required: ${identification}</p> <br>
             <p>proof of address required: ${proofOfAddress}</p><br>
-            <p>expenses: ${expenses}</p><br>
             </div>
             `;
             return html;        
@@ -93,6 +99,6 @@
       defer
       src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAgoyZnH86cKX5T4NIqP_Fo9o_itvR6PgQ&libraries=localContext&v=beta&callback=initMap"
     ></script>
-    <a href="index.html">Back to home</a>
+    <a style="color:red" href="index.html">Back to home</a>
   </body>
 </html>
