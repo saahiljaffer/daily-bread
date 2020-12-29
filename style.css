@@ -1,7 +1,8 @@
 .nav{
   background-color: #d3effc;
-  width: 33%;
-  font-family: trebuchet ms
+  width: 25%;
+  font-family: trebuchet ms;
+  font-size: small
 }
 
 .nav:hover{
@@ -19,25 +20,77 @@ body{
 .block {
   text-align: center;
   align-content: center;
-  width: 80%;
   border: 8px solid #d3effc;
   padding: 30px;
-  margin: auto;
   background-color:white;
   opacity: 0.7;
 }
 
+.block2 {
+  text-align: center;
+  align-content: center;
+  border: 8px solid white;
+  padding: 30px;
+  background-color:#d3effc;
+  opacity: 0.7;
+}
+
+
 label {
-  display: block;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  text-align: left;
   padding: 3px;
+}
+
+input {
+  height: 20px;
+  margin-left: 10px;
 }
 
 .infoForm {
   font-family: trebuchet ms;
   text-align: center;
-  width: auto;
+  width: 50%;
   border: 8px solid #d3effc;
-  padding: 30px;
-  margin: auto;
+  margin-left: 24%;
+  margin-right: 24%;
+  padding: 2%;
   background-color:white;
+  display: inline-block
+}
+
+p{
+  font-family: sans-serif;
+  font-weight: bold
+}
+
+h1{
+  font-family: trebuchet ms
+}
+
+.feature{
+  width: 20%;
+  margin: 5%;
+  padding: 2%;
+  background-color: #CBE4EF;
+  border: 3px solid #49668A;
+  transition: transform 0.2s
+}
+
+.feature:hover{
+  width: 20%;
+  margin: 5%;
+  padding: 2%;
+  background-color: #CBE4EF;
+  border: 3px solid #49668A;
+  cursor: pointer;
+    transform:scale(0.95);
+    opacity: 0.8
+}
+
+a{
+  text-decoration: none;
+  color: inherit
 }

@@ -6,21 +6,51 @@
   </head>
 
   <body>
-  
+<header style = "background-color: white">
+    <img src = "graphics/edgepattern2.png" alt = "edgetop" style = "width: 35%">
+    <img src ="graphics/logobread.JPG" alt = "logo" style = "width: 20%; margin-left: 40%; margin-right: 40%; margin-top: -20%">
+
+        <img src = "graphics/edgepattern3.png" alt = "edgebottom" style = "width: 13%; float: right; margin-top: -20%">
+
+		<table style="width: 60%; margin-left: 20%; margin-right: 20%; text-align: center">
+			<tr>
+				<td class="nav" onclick="location.href='index.html'">
+					<h1> Home </h1></a>
+				</td>
+				<td class="nav" onclick="location.href ='form.html'">
+					<h1> Search </h1></a>
+				</td>
+				<td class="nav" onclick="location.href = 'about.html'"><h1> About Us </h1></a></td> 
+        				<td class="nav" onclick="location.href = 'about.html'"><h1> Resource Registration </h1></a></td> 
+        
+        </tr>
+		</table><br/><br/>
+    </header><br/>
+<!-- I changed some styling in the external css to center your form! (Cat) yup lol-->
+<!-- Thank you :)-->
   <div class = "infoForm">
     <h1>Find a Food Bank</h1>
-    <form>
+    <form id="info" >
       <label>
         Income: <input type="text" id="income" name="income"/>
       </label>
       <label>
         The food bank should be within how many km:<input type="text" id="distance" name="distance"/>
       </label>
+      <label>
+        Do you have identification for everyone in your household?:<input type="text" id="distance" name="distance"/>
+      </label>
+      <label>
+        Do you have proof of address?:<input type="text" id="proof_Address" name="proof_Address"/>
+      </label>
+      <label>
+        What are your total expenses for hydro and rent?:<input type="text" id="proof_Address" name="proof_Address"/>
+      </label>
       <br>
       <input type="submit" value="Submit">
     </form>
 
   </div>
-
+  <script src="scriptFrom.js"></script>
   </body>
 </html>

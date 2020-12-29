@@ -1,8 +1,12 @@
 Home page
-  displays information about the app (promotion)
-  advertises food bank events/services
-  includes link to form page
+  displays information about the app (promotion) ✔️
+  advertises food bank events/services ✔️
+  includes link to form page ✔️
   
+About us page
+  about the creators
+  contact info
+
 Form page
   - enter info into forms (address, income, name, age, dietary restrictions, possible distance)
   - use jquery to grab user input?
