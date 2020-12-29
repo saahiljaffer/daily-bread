@@ -1,0 +1,4 @@
+Danny- working with apis (form page)
+Areej - form page (accepting data and rendering a list of options)
+Cat - home, about us
+Saahil - database options for user data and  potentially foodbank data

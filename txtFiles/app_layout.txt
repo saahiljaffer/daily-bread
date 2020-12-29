@@ -1,0 +1,18 @@
+Home page
+  displays information about the app (promotion)
+  advertises food bank events/services
+  includes link to form page
+  
+Form page
+  - enter info into forms (address, income, name, age, dietary restrictions, possible distance)
+  - use jquery to grab user input?
+  - call apis with user input
+    - use fetch (javascript) to access api data
+    - check for requirements (dietary restrictions, income, etc)
+    - find food bank with most food
+    - gather array (data) of suitable food banks
+  - render html with api data (food banks list)
+
+Extensions
+- Database to compare the food banks income requirements and dietary restrictions to that of the customers
+- Additional area for food banks to advertise special events/services/foods in stock

@@ -1,0 +1,43 @@
+.nav{
+  background-color: #d3effc;
+  width: 33%;
+  font-family: trebuchet ms
+}
+
+.nav:hover{
+  transform: scale(0.9);
+  transition: all ease 500ms;
+  background-color: #49668A;
+  color: white
+}
+
+body{
+  background: url('graphics/pattern2.jpg');
+  background-size: cover
+}
+
+.block {
+  text-align: center;
+  align-content: center;
+  width: 80%;
+  border: 8px solid #d3effc;
+  padding: 30px;
+  margin: auto;
+  background-color:white;
+  opacity: 0.7;
+}
+
+label {
+  display: block;
+  padding: 3px;
+}
+
+.infoForm {
+  font-family: trebuchet ms;
+  text-align: center;
+  width: auto;
+  border: 8px solid #d3effc;
+  padding: 30px;
+  margin: auto;
+  background-color:white;
+}
