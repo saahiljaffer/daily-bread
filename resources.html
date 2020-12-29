@@ -62,26 +62,26 @@
   <script>
 
     // submit food banks data to database
-    function onSubmition() {
-      var income = parseInt(document.getElementById("income").value);
-      var distance = parseInt(document.getElementById("distance").value);
-      var identification = document.getElementById("identification").value;
-      var proof_Address = document.getElementById("proof_Address").value;
-      var expenses = parseInt(document.getElementById("expenses").value);
+  //   function onSubmition() {
+  //     var income = parseInt(document.getElementById("income").value);
+  //     var distance = parseInt(document.getElementById("distance").value);
+  //     var identification = document.getElementById("identification").value;
+  //     var proof_Address = document.getElementById("proof_Address").value;
+  //     var expenses = parseInt(document.getElementById("expenses").value);
 
-      formData = $("#submit").serialize();
-      $.ajax({
-        url: "dataHandler.php",
-        type: "post",
-        data: formData,
-        success: function(d) {},
-        error: function (request, status, error) {
-        console.log(request.responseText);
-      }
-    });
-    e.preventDefault();
+  //     formData = $("#submit").serialize();
+  //     $.ajax({
+  //       url: "dataHandler.php",
+  //       type: "post",
+  //       data: formData,
+  //       success: function(d) {},
+  //       error: function (request, status, error) {
+  //       console.log(request.responseText);
+  //     }
+  //   });
+  //   e.preventDefault();
 
-  }
+  // }
   </script>
 
 </body>

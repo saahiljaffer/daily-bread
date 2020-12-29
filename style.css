@@ -107,7 +107,6 @@ h2{
   margin: 5%;
   padding: 2%;
   background-color: #D3F7FC;
-  border: 3px solid #739499;
   transition: transform 0.2s
 }
 
@@ -116,7 +115,6 @@ h2{
   margin: 5%;
   padding: 2%;
   background-color: #D3F7FC;
-  border: 3px solid #739499;
   cursor: pointer;
     transform:scale(0.95);
     opacity: 0.8
@@ -135,10 +133,8 @@ a{
 .button {
   background-color: #D3F7FC; /* Green */
   border: none;
-  color: white;
-  padding: 15px 32px;
+  color: black;
+  padding: 0px 25px;
   text-align: center;
-  text-decoration: none;
-  display: inline-block;
   font-size: 16px;
 }
