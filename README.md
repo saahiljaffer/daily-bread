@@ -1,2 +1,2 @@
 # dailyBread
-https://saahiljaffer.com/dailybread
+https://saahiljaffer.com/dailyBread
