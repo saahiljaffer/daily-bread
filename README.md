@@ -1,5 +1,4 @@
-# Daily Bread
-https://saahiljaffer.com/dailyBread
+# [Daily Bread](https://saahiljaffer.com/dailyBread)
 
 ## Inspiration
 Hunger and food security is a serious issue that affects almost 9% of the world's population despite there being more than enough food resources to provide for the world's population. We realized that the root problem is the distribution and accessibility of food that has caused the level of world hunger to increase each year.
